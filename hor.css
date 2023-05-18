@@ -1,0 +1,51 @@
+
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+body .container{
+    background-image: url(./horror-6559190_960_720.jpg);
+    background-repeat: no-repeat;
+    max-width: 882px;
+    max-height: 320px;
+    
+    padding-bottom: 450px;
+    margin-top: 100px;
+    border-radius: 1px solid #000;
+    margin-bottom: 50px;
+}
+.container{
+    border: 1px solid #000;
+    border-radius: 45px;
+    background-color: #666666,0.5;
+}
+ul li{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+h1{
+    font-family: sans-serif;
+    color: red;
+    cursor: pointer;
+}
+.btn{
+    border: 1px solid red;
+   
+    max-width: 50px;
+    padding: 5px;
+    border-radius: 25px;
+}
+.btn a{
+    text-decoration: none;
+   color: red;
+   padding-left: 5px;
+}
+.btn:hover{
+background-color: #fff;
+transition: 0.5s;
+}
